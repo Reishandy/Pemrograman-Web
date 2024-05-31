@@ -1,0 +1,38 @@
+body {
+    background-color: #2C2A4A;
+    font-family: 'JetBrains Mono', monospace;
+    color: #DABFFF;
+}
+
+.centered-div {
+    background: #907AD6;
+    border-radius: 25px;
+    border: 2px solid #DABFFF;
+    box-shadow: 0 0 40px 15px #DABFFF;
+    text-align: center;
+}
+
+.centered-div h1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.centered-div h4 {
+    font-size: 1.3em;
+    opacity: 0.9;
+}
+
+.centered-div button {
+    color: #DABFFF;
+    border-color: #DABFFF;
+}
+
+.centered-div button:hover {
+    background-color: #DABFFF;
+    color: #2C2A4A;
+}
+
+.centered-div img {
+    height: 5em;
+    margin-right: 1em;
+}
