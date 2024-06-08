@@ -5,13 +5,13 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=chrome">
-    <title>MAG4</title>
+    <title>SS2-V5 A1</title>
 
     <!-- Styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="../dashboard.css">
+    <link rel="stylesheet" href="../../assets/css/dashboard.css">
 </head>
 <body>
 
@@ -51,6 +51,9 @@ $username = $_SESSION['username'];
                         <li class="nav-item">
                             <a class="nav-link" href="../about.php">About</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../table/table.php">Table</a>
+                        </li>
                     </ul>
 
                     <a href="../../auth/logout.php" class="btn btn-danger">Logout</a>
@@ -64,13 +67,15 @@ $username = $_SESSION['username'];
         <article>
             <div class="isi">
                 <div class="judul">
-                    MAG 4
+                    SS2-V5 A1
                 </div>
-                <img src="../../assets/Mag4pic.jpg" alt="MAG 4">
-                <p>Pistol keluaran terbaru ini memiliki laras sepanjang 4 inci – lebih pendek dari sang pendahulu yang
-                    terkenal, pistol G2 – untuk mencapai jarak tembak efektif dalam penggunaan area jarak dekat. MAG 4
-                    lebih mudah dioperasikan berkat bahan material yang lebih ringan dan mekanisme kokang yang lebih
-                    sederhana.</p>
+                <img src="../../assets/SS2_V5_A1_3.jpg" alt="SS2-V5 A1">
+                <p>Varian SS2-V5 yang mendapatkan beberapa upgrade untuk meningkatkan performanya. Popor lipat yang
+                    menjadi standar pada SS2-V5 diganti dengan popor model teleskopik. Pada bagian handguard, disematkan
+                    rail pada kiri, kanan, atas, dan bawah untuk memasang berbagai aksesoris. Pada rail bawah, sudah
+                    terpasang sebuah vertical foregrip yang dapat menambah ergonomi dan kenyamanan dalam penggunaan
+                    senjata. Selain itu, pisir model carry handle diganti dengan model lipat pada rail. Pisir dan pijera
+                    ini dapat diganti dengan berbagai jenis teleskop yang dipasang pada rail senjata.</p>
             </div>
         </article>
 

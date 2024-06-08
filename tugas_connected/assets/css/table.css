@@ -1,0 +1,33 @@
+.card {
+    background: #907AD6;
+    border-radius: 25px;
+    border: 2px solid #DABFFF;
+    box-shadow: 0 0 20px 5px #DABFFF;
+    text-align: center;
+    min-width: 100vh;
+}
+
+.btn-outline-light {
+    color: #DABFFF;
+    border-color: #DABFFF;
+}
+
+.btn-outline-light:hover {
+    background-color: #DABFFF;
+    color: #2C2A4A;
+}
+
+.card-header h2 {
+    color: #DABFFF;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.card-body .table {
+    border: 2px solid #DABFFF;
+    color: #2C2A4A;
+}
+
+.card-body textarea {
+    height: 20vh !important;
+}

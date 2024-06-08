@@ -5,13 +5,13 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=chrome">
-    <title>About</title>
+    <title>SPR-4</title>
 
     <!-- Styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="../../assets/css/dashboard.css">
 </head>
 <body>
 
@@ -19,7 +19,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
-    header("Location: ../auth/login.php");
+    header("Location: ../../auth/login.php");
     exit();
 }
 
@@ -43,17 +43,20 @@ $username = $_SESSION['username'];
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="dashboard.php">Dashboard</a>
+                            <a class="nav-link" href="../dashboard.php">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.php">Contact</a>
+                            <a class="nav-link" href="../contact.php">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.php">About</a>
+                            <a class="nav-link" href="../about.php">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../table/table.php">Table</a>
                         </li>
                     </ul>
 
-                    <a href="../auth/logout.php" class="btn btn-danger">Logout</a>
+                    <a href="../../auth/logout.php" class="btn btn-danger">Logout</a>
                 </div>
             </div>
         </nav>
@@ -64,9 +67,13 @@ $username = $_SESSION['username'];
         <article>
             <div class="isi">
                 <div class="judul">
-                    About
+                    SPR-4
                 </div>
-                <p>Just some assigment</p>
+                <img src="../../assets/SPR_4.jpeg" alt="SPR-4">
+                <p>Senapan Penembak Runduk yang di desain untuk melengkapi jajaran produk senjata produksi PT. Pindad
+                    (Persero) dalam jarak penembakan 1500 meter. Penggunaan munisi MU56-M memastikan akurasi terbaik
+                    yang didukung oleh teleskop dengan pembesaran hingga 25x serta Bipod untuk menjaga kestabilan dalam
+                    penembakan.</p>
             </div>
         </article>
 

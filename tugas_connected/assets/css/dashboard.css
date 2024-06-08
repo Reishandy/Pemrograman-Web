@@ -110,9 +110,23 @@ article .konten .judul a {
     margin-left: 5px;
     text-decoration: none;
     font-size:x-large;
-    color:#2C2A4A;
+    color: #DABFFF;
+}
+
+article .konten p {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 article .konten a:hover {
     opacity:0.9;
+}
+
+article .isi .judul{
+    color: #DABFFF;
+}
+
+article .isi p {
+    text-align: justify;
+    text-justify: inter-word;
 }

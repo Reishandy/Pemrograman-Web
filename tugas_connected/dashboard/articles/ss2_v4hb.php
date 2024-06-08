@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="../dashboard.css">
+    <link rel="stylesheet" href="../../assets/css/dashboard.css">
 </head>
 <body>
 
@@ -50,6 +50,9 @@ $username = $_SESSION['username'];
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../about.php">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../table/table.php">Table</a>
                         </li>
                     </ul>
 
